@@ -12,6 +12,10 @@ Install-Module -Name PSReadLine -AllowPrerelease -Force -SkipPublisherCheck
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 #### Installing neovim:
-* Firstly, installing scoop: ```iwr -useb get.scoop.sh | iex```
-* Installing neovim itself: ```scoop install neovim gcc```
+* Firstly, installing scoop: 
+```iwr -useb get.scoop.sh | iex```
+
+* Installing neovim itself: 
+```scoop install neovim gcc```
+
 That's all!
