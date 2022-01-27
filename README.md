@@ -13,9 +13,13 @@ Install-Module -Name PSReadLine -AllowPrerelease -Force -SkipPublisherCheck
 ```
 #### Installing neovim:
 * Firstly, installing scoop: 
-```iwr -useb get.scoop.sh | iex```
+```
+iwr -useb get.scoop.sh | iex
+```
 
 * Installing neovim itself: 
-```scoop install neovim gcc```
+```
+scoop install neovim gcc
+```
 
 That's all!
